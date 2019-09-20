@@ -1,0 +1,26 @@
+<ng-container *ngIf="isEmpty; else pokazListe">
+    <div class="emptyList">Nie znaleziono produktu</div>
+  </ng-container>
+<ng-template #pokazListe> 
+<div class="container">
+    <h3>Wyniki wyszukiwania</h3>
+  <div  class="recommended-container">
+          
+      
+        <div *ngFor="let product of searchProduct"  class="recommended-product">
+            <div >
+                <div><a routerLink="../../k/{{product.grupa}}/{{product.id}}"><img src="{{product.thumbnail}}"></a></div>
+                <div class="product-name"><a routerLink="../../k/{{product.grupa}}/{{product.id}}">{{product.nazwa}}</a></div>
+                <div class="prices"><div [ngClass]="product.promo ? 'old-price':'product-price'">{{product.cena}}<span>zł</span></div>
+                <ng-container *ngIf="product.promo">
+                      <div class="product-price">{{product.cenaPromocyjna}}<span>zł</span></div>
+                      <div class="promo-info">Promocja</div>
+              </ng-container>
+               
+            </div>
+            </div>
+        </div> 
+  </div>  
+
+</div>
+</ng-template>

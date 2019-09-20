@@ -1,29 +1,169 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<header class="master-header"><div ><img class="logo" src="../assets/placeholder.com-logo1.jpg"></div>
+<div class="dark-background" [ngClass]="status ? 'show':'hide'" (click)="closeSidenav()"></div>
+<div class="container" class="main-container">
+  <div class="container--border">
+  <div id="contact-info" class="container">
+    <a href="tel:#"><i class="fas fa-phone" style="margin-right: 10px;
+          color: #037ed0;"></i>+48 111 222 333</a>
+    <a href="email:#"><i class="material-icons">
+        alternate_email
+      </i>biuro@company.pl</a>
+  </div>
+</div>
+<header class="master-header container">
 
-<div id="more-info"> 
-  
-    <div id="contact-info">
-        <a href="tel:#"><i class="fas fa-phone" style="margin-right: 10px"></i>+48 111 222 333</a>
-        
-        </div>
-  <div class="buttons">
-    <div id="account"><a href="#"><i class="fas fa-user"></i> <div class="account-list">
-        <ul>
-          <li>Rejestracja</li>
-          <li>Zaloguj</li>
-        </ul>
-      </div></a>
-   
+  <div id="more-info">
+    <div id="logo-wrapper"><a routerLink="/">
+        <img class="logo" src="../assets/abstract-globe-logo.png"></a></div>
+    <div class="search-wrapper"><input placeholder="Wyszukaj produkt" [(ngModel)]='searchValue'
+        (keyup.enter)="searchProduct(searchValue)">
+      <div class="search-button" (click)="searchProduct(searchValue)">
+        <i class="material-icons search-icon">
+          search
+        </i></div>
     </div>
-    <div id="busket"><a href="#"><i class="fas fa-shopping-basket"></i></a></div>
-    
-    </div></div>
+
+
+    <div class="detalis">
+      <div class="buttons">
+        <div id="account"><a href="#"><i class="material-icons-outlined" style="font-size: 35px;
+          position: relative;
+          top: 6px;
+          color: #037ed0;    padding-bottom: 10px;">
+              person
+            </i>
+            <div class="account-list">
+              <ng-container *ngIf="!isLoggedIn; else zalogowany">
+                <ul>
+                  <li><a routerLink="/rejestracja">Rejestracja</a></li>
+                  <li><a routerLink="/logowanie">Zaloguj</a></li>
+                </ul>
+              </ng-container>
+              <ng-template #zalogowany>
+                <ul>
+                  <!-- <li><a routerLink="/ustawienia">Ustawienia</a></li> -->
+                  <li><a routerLink="/zamowienia">Twoje zamówienia</a></li>
+                  <li class="logout-button"><a (click)="logOut()">Wyloguj</a></li>
+                </ul>
+              </ng-template>
+
+            </div>
+          </a>
+
+        </div>
+        <div id="busket">
+          <div [ngClass]="showNumber ? 'show':'hide'" class="ile-koszyk">
+            <p>{{ileKoszyk}}</p>
+          </div><a routerLink="/koszyk">
+            <!--<i class="fas fa-shopping-basket" style="color:#050499"></i>--><i
+              class="material-icons-outlined cart-icon">
+              shopping_cart
+            </i></a>
+        </div> <a class="mobile-menu-button" (click)="openSidenav()"><i class="material-icons">
+            menu
+          </i></a>
+        <!-- <div>{{isLoggedIn}}</div> -->
+      </div>
+
+    </div>
+
+
+  </div>
+
 
 
 
 </header>
-<div style="text-align:center">
 </div>
 
+<nav>
+  <div class="container">
+    <ul [ngClass]="status ? 'opened':'closed'">
+      <li class="close-button">
+        <a (click)="closeSidenav()" class="close-button-link"><i class="fas fa-times close"></i></a>
+      </li>
+      <li>
+        <a routerLink="/procesory" routerLinkActive="active-link" (click)="closeSidenav()">Procesor</a>
+      </li>
+      <li>
+        <a routerLink="/karty-graficzne" routerLinkActive="active-link" (click)="closeSidenav()">Karta graficzna</a>
+      </li>
+      <li>
+        <a routerLink="/pamiec" routerLinkActive="active-link" (click)="closeSidenav()">Pamięć</a>
+      </li>
+      <li>
+        <a routerLink="/dyski-twarde" routerLinkActive="active-link" (click)="closeSidenav()">Dysk twardy</a>
+      </li>
+      <li>
+        <a routerLink="/plyty-glowne" routerLinkActive="active-link" (click)="closeSidenav()">Płyta główna</a>
+      </li>
+      <li>
+        <a routerLink="/obudowy" routerLinkActive="active-link" (click)="closeSidenav()">Obudowa</a>
+      </li>
+      <li>
+        <a routerLink="/zasilacze" routerLinkActive="active-link" (click)="closeSidenav()">Zasilacz</a>
+      </li>
+      <li>
+        <a routerLink="/dodatki" routerLinkActive="active-link" (click)="closeSidenav()">Dodatki</a>
+      </li>
+    </ul>
+  </div>
 
+
+</nav>
+<div class="container main-content">
+  <router-outlet></router-outlet>
+</div>
+
+<footer>
+  <div class="footer-container container">
+    <div>
+
+      <ul>
+        <li>
+          <a routerLink="/procesory" routerLinkActive="active-link" >Procesor</a>
+        </li>
+        <li>
+          <a routerLink="/karty-graficzne" routerLinkActive="active-link" >Karta graficzna</a>
+        </li>
+        <li>
+          <a routerLink="/pamiec" routerLinkActive="active-link">Pamięć</a>
+        </li>
+        <li>
+          <a routerLink="/dyski-twarde" routerLinkActive="active-link">Dysk twardy</a>
+        </li>
+
+      </ul>
+
+    </div>
+    <div>
+      <ul>
+        <li>
+          <a routerLink="/plyty-glowne" routerLinkActive="active-link">Płyta główna</a>
+        </li>
+        <li>
+          <a routerLink="/obudowy" routerLinkActive="active-link">Obudowa</a>
+        </li>
+        <li>
+          <a routerLink="/zasilacze" routerLinkActive="active-link">Zasilacz</a>
+        </li>
+        <li>
+          <a routerLink="/dodatki" routerLinkActive="active-link">Dodatki</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="margin-bottom:20px">Masz pytania?</h3>
+      <div id="contact-info">
+        <a href="tel:#"><i class="fas fa-phone" style="margin-right: 10px;
+          color: #ffffff;
+          background-color: #037ed0;
+          padding: 4px;
+          border-radius: 5px; font-size: 6px"></i>+48 111 222 333</a>
+        <a href="email:#"><i class="material-icons">
+            alternate_email
+          </i>biuro@company.pl</a>
+      </div>
+    </div>
+  </div>
+</footer>

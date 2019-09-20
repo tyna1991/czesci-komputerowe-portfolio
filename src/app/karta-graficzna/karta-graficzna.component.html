@@ -1,0 +1,47 @@
+<div class="container product-background">
+    <div *ngFor="let alert of CartService.alerts">
+        <div class="modal" [ngClass]="openModal ? 'show':'hide'"><div class="modal-content"  (close)="closeAlert(alert)"><div class="close"><i (click)="hideModal()" class="fas fa-times close" ></i></div>
+        <p>{{ alert.message }}</p>
+        <div *ngFor="let produkt of CartService.produkt">
+             <div class="produkt-added-alert">
+                     <div><img src="{{produkt.thumbnail}}"></div>
+                     <div class="produkt-added-alert-desc">
+                             <div class="product-name">{{produkt.nazwa}}</div>
+                             <div class="prices"><div [ngClass]="produkt.promo ? 'old-price':'product-price'">{{produkt.cena}}<span>zł</span></div>
+                             <ng-container *ngIf="produkt.promo">
+                                   <div class="product-price">{{produkt.cenaPromocyjna}}<span>zł</span></div>
+                           </ng-container>
+                            
+                         </div>
+                     </div>
+             </div>
+        </div>
+    <div class="modal-buttons"><a (click)="hideModal()">Kontynuuj zakupy</a><a routerLink="/koszyk">Przejdź do koszyka</a></div>
+     </div></div></div> 
+  <div><h3>{{title}}</h3></div>
+<ul class="products-wrapper">
+
+<li class="product" *ngFor="let kartaG of produkt">
+ 
+  <div class="l-site"><ng-container *ngIf="kartaG.promo">
+        <div class="promo-info">Promocja</div>
+</ng-container><a routerLink="../k/{{kartaG.grupa}}/{{kartaG.id}}"><img src="{{kartaG.thumbnail}}"></a></div>
+  <div class="middle-site"><p class="product-description">{{kartaG.opis}}</p></div>
+  <div class="r-site">
+  <div class="product-name"><a routerLink="../k/{{kartaG.grupa}}/{{kartaG.id}}"><span >{{kartaG.nazwa}}</span></a></div>
+  <div class="prices"><div [ngClass]="kartaG.promo ? 'old-price':'product-price'">{{kartaG.cena}}<span>zł</span></div>
+  <ng-container *ngIf="kartaG.promo">
+        <div class="product-price">{{kartaG.cenaPromocyjna}}<span>zł</span></div>
+</ng-container>
+ 
+</div>
+  
+
+<div class="add-to-basket-wrapper"><button class="add-to-basket" (click)="OnAddCart(kartaG)"><i class="material-icons">
+    add_shopping_cart
+    </i>Do koszyka</button>
+</div></div>
+</li>
+
+</ul>
+</div>

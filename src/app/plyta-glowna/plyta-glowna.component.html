@@ -1,0 +1,49 @@
+<div class="container product-background">
+    <div *ngFor="let alert of CartService.alerts">
+        <div class="modal" [ngClass]="openModal ? 'show':'hide'"><div class="modal-content"  (close)="closeAlert(alert)"><div class="close"><i (click)="hideModal()" class="fas fa-times close" ></i></div>
+        <p>{{ alert.message }}</p>
+        <div *ngFor="let produkt of CartService.produkt">
+             <div class="produkt-added-alert">
+                     <div><img src="{{produkt.thumbnail}}"></div>
+                     <div class="produkt-added-alert-desc">
+                             <div class="product-name">{{produkt.nazwa}}</div>
+                             <div class="prices"><div [ngClass]="produkt.promo ? 'old-price':'product-price'">{{produkt.cena}}<span>zł</span></div>
+                             <ng-container *ngIf="produkt.promo">
+                                   <div class="product-price">{{produkt.cenaPromocyjna}}<span>zł</span></div>
+                           </ng-container>
+                            
+                         </div>
+                     </div>
+             </div>
+        </div>
+    <div class="modal-buttons"><a (click)="hideModal()">Kontynuuj zakupy</a><a routerLink="/koszyk">Przejdź do koszyka</a></div>
+     </div></div></div>
+  <div><h3>{{title}}</h3></div>
+<ul class="products-wrapper">
+
+<li class="product" *ngFor="let plytaG of produkt">
+ 
+  <div class="l-site"><a routerLink="../k/{{plytaG.grupa}}/{{plytaG.id}}"><img src="{{plytaG.thumbnail}}"></a>
+    <ng-container *ngIf="plytaG.promo">
+            <div class="promo-info">Promocja</div>
+    </ng-container>
+</div>
+  <div class="middle-site"><p class="product-description">{{plytaG.opis}}</p></div>
+  <div class="r-site">
+  <div class="product-name"><a routerLink="../k/{{plytaG.grupa}}/{{plytaG.id}}"><span >{{plytaG.nazwa}}</span></a></div>
+  <div class="prices"><div [ngClass]="plytaG.promo ? 'old-price':'product-price'">{{plytaG.cena}}<span>zł</span></div>
+  <ng-container *ngIf="plytaG.promo">
+        <div class="product-price">{{plytaG.cenaPromocyjna}}<span>zł</span></div>
+</ng-container>
+ 
+</div>
+  
+
+<div class="add-to-basket-wrapper"><button class="add-to-basket" (click)="OnAddCart(plytaG)"><i class="material-icons">
+    add_shopping_cart
+    </i><span>Do koszyka</span></button>
+</div></div>
+</li>
+
+</ul>
+</div>

@@ -1,0 +1,202 @@
+<div *ngFor="let alert of alerts">
+  <div class="modal" [ngClass]="openModal ? 'show':'hide'">
+    <div class="modal-content" (close)="closeAlert(alert)">
+      <div class="close"><a routerLink="/" style="background: none; color:black"><i class="fas fa-times close"></i></a>
+      </div>
+      <p>{{ alert.message }}</p>
+
+      <div class="modal-buttons"><a routerLink="/">Zamknij</a><a routerLink="/zamowienia">Twoje zamówienia</a></div>
+    </div>
+  </div>
+</div>
+
+
+<div id="static-2">
+  <div class="container product-background">
+
+    <div class="order-wrapper">
+      <h3>Szczegóły Zamówienia</h3>
+      <div class="order-background">
+        <div ngbPanelContent>
+          <form [formGroup]="deliveryForm">
+            <div class="form-group">
+              <div class="inputs">
+                <label>Imię:</label> <input type="text" formControlName="Name" class="form-control">
+
+              </div>
+              <div class="inputs">
+                <span style=" 
+          color: #d60000;
+          font-size: 10px;    position: relative;
+    top: -10px;" *ngIf="!deliveryForm.controls['Name'].valid&&(deliveryForm.controls['Name'].dirty||submitted)">
+                  <span *ngIf="deliveryForm.controls.Name.errors.required">Pole imię jest wymagane</span>
+                </span>
+              </div>
+              <div class="inputs">
+                <label>Nazwisko:</label> <input type="text" formControlName="Surname" class="form-control">
+              </div>
+              <div class="inputs">
+                <span style=" 
+          color: #d60000;
+          font-size: 10px;    position: relative;
+    top: -10px;" *ngIf="!deliveryForm.controls['Surname'].valid&&(deliveryForm.controls['Surname'].dirty||submitted)">
+                  <span *ngIf="deliveryForm.controls.Surname.errors.required">Pole nazwisko jest wymagane</span>
+                </span>
+              </div>
+              <div class="adress">
+                <h5>Adres wysyłki:</h5> <br>
+                <div class="inputs">
+                  <div></div><label>Ulica</label>
+                  <div></div><input type="text" formControlName="Street" class="form-control">
+                </div>
+                <div class="inputs">
+                  <span style=" 
+            color: #d60000;
+            font-size: 10px;    position: relative;
+      top: -10px;" *ngIf="!deliveryForm.controls['Street'].valid&&(deliveryForm.controls['Street'].dirty||submitted)">
+                    <span *ngIf="deliveryForm.controls.Street.errors.required">Pole ulica jest wymagane</span>
+                  </span>
+                </div>
+                <div class="inputs">
+                  <div class="flex-2">
+                    
+                    <div style="display: flex;">
+                        <label>Kod</label>
+                        <div>
+                            <input type="text" formControlName="Code" class="form-control"
+                            style="min-width: auto; width: 100%;">
+                          <div class="inputs">
+                            <span style=" 
+                      color: #d60000;
+                      font-size: 10px;top: 5px;
+      position: relative;" *ngIf="!deliveryForm.controls['Code'].valid&&(deliveryForm.controls['Code'].dirty||submitted)">
+                              <span *ngIf="deliveryForm.controls.Code.errors.required">Pole kod jest wymagane</span>
+                            </span>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    <div style="display: flex; width:100%">
+                     
+                      <div class="" style="display: flex; width: 100%;">
+                        <label style="text-align: center">Miasto</label>
+
+                        <div style="width: 100%">
+                          <input type="text" formControlName="City" class="form-control" style="">
+                          <div class="inputs">
+                            <span style=" 
+                      color: #d60000;
+                      font-size: 10px; top: 5px;
+    position: relative" *ngIf="!deliveryForm.controls['City'].valid&&(deliveryForm.controls['City'].dirty||submitted)">
+                              <span *ngIf="deliveryForm.controls.City.errors.required">Pole miasto jest wymagane</span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+
+                </div>
+
+                <!-- <textarea id="textarea" name="textarea" formControlName="DeliveryAddress" class="form-control"  rows="3" cols="15"></textarea> -->
+              </div>
+              <div class="inputs">
+                <label>Telefon:</label> <input type="text" formControlName="Phone" class="form-control">
+              </div>
+              <div class="inputs">
+                <span style=" 
+          color: #d60000;
+          font-size: 10px; position:relative"
+                  *ngIf="!deliveryForm.controls['Phone'].valid&&(deliveryForm.controls['Phone'].dirty||submitted)">
+                  <span *ngIf="deliveryForm.controls.Phone.errors.required">Pole telefon jest wymagane</span>
+                </span>
+              </div>
+              <!-- <div class="inputs">
+          <label>Forma dostawy:</label> <input type="text" formControlName="Delivery" class="form-control">
+        </div> -->
+              <h5>Dostawa:</h5>
+              <div class="delivery-wrapper">
+                <div class="inputs" style="width:100%">
+                  <label>Forma dostawy:</label>
+                  <div style="display: flex; flex-direction: column;"><select (ngModelChange)="selectChange($event)"
+                      [(ngModel)]="selectedValue" formControlName="Delivery" class="form-control"
+                      style="height: 30px; min-width: auto; padding: 0; width:100%">
+                      <option [value]="option" *ngFor="let option of deliveryOptions">{{option}}</option>
+                    </select>
+                    <div class="inputs">
+                      <span style=" 
+          color: #d60000;
+          font-size: 10px;   top: 5px;
+    position: relative
+    " *ngIf="!deliveryForm.controls['Delivery'].valid&&(deliveryForm.controls['Delivery'].dirty||submitted)">
+                        <span *ngIf="deliveryForm.controls.Delivery.errors.required">Pole forma dostawy jest
+                          wymagane</span>
+                      </span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- <div class="inputs">
+          <label>Płatność:</label> <input class="form-control"type="text" formControlName="PaymentMethods" class="form-control">
+        </div> -->
+                <div class="inputs" style="width:100%">
+                  <label>Forma płatności:</label>
+                  <div style="flex-direction: column; display: flex">
+                    <select (ngModelChange)="selectChange2($event)" [(ngModel)]="selectedValue2"
+                      formControlName="PaymentMethods" class="form-control"
+                      style="height: 30px; min-width: 150px; padding: 0; width:100%">
+                      <option [value]="option" *ngFor="let option of paymentOptions"> {{option}}</option>
+                    </select>
+                    <div class="inputs">
+                      <span style=" 
+            color: #d60000;
+            font-size: 10px;top: 5px;
+    position: relative"
+                        *ngIf="!deliveryForm.controls['PaymentMethods'].valid&&(deliveryForm.controls['PaymentMethods'].dirty||submitted)">
+                        <span *ngIf="deliveryForm.controls.PaymentMethods.errors.required">Pole forma płatności jest
+                          wymagane</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- <div class="col-md-12">
+                          <h5>Total Amount To Pay:</h5>  <input type="text" formControlName="Amount" class="form-control"   >
+                        </div> -->
+              <div class="ile-lacznie" style="font-size:20px">Koszt zamówienia: <span
+                  class="total">{{allTotal}}</span><span>zł</span>
+              </div>
+              <div class="ile-lacznie" style="font-size:15px"> + koszt wysyłki: <span
+                  class="total">{{deliveryCost}}</span><span>zł</span>
+              </div>
+              <div class="ile-lacznie" style="border-top:1px solid #cccccc; margin-top: 20px; padding-top:10px">Łącznie:
+                <span class="total">{{allCost}}</span><span>zł</span>
+              </div>
+
+            </div>
+
+            <div class="buttons">
+              <a class="btn-login" routerLink="/koszyk">Wróć</a>
+              <button type="button" class="btn-login" (click)="ConfirmOrder()">Potwierdź zamówienie</button>
+            </div>
+
+
+
+          </form>
+
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div *ngFor="let alert of alerts">
+          <div style="width: 758px;" (close)="closeAlert(alert)">{{ alert.message }}</div>
+          <!--[type]="alert.type"-->
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,72 @@
+<div class="container product-background">
+    <div><h3>Koszyk</h3></div>
+<span>
+  <div class="cart-div">
+    
+  <ng-container *ngIf="pusta; else pokazListe">
+      <div class="emptyList">Koszyk jest pusty</div>
+    </ng-container>
+  <ng-template #pokazListe> 
+  <div>
+    <div>
+      <!-- <div class="naglowek">
+          <div>zdjecie</div>
+          <div class="text-center" class="product-name">nazwa</div>
+          <div class=".product-price">cena</div>
+          <div>
+            ilość
+          </div>
+          <div >
+              wartość
+          </div>
+          <div>usuń</div>
+      </div> -->
+  <div *ngFor="let produkt of productAddedTocart" class="basket-main" >
+    <div><a routerLink="../k/{{produkt.grupa}}/{{produkt.id}}"><img src="{{produkt.thumbnail}}" width="100px;" height="100px;"/></a></div>
+    <div class="text-center" class="product-name"><a routerLink="../k/{{produkt.grupa}}/{{produkt.id}}">{{produkt.nazwa}}</a><span *ngFor="let alert of alertMagazyn" class="magazine-alert">
+        <ng-template [ngIf]="alert.id==produkt.id">
+          {{alert.message}}</ng-template>
+        </span>
+     
+    </div>
+    <div class="quantity">
+      <div class="form-inline">
+      <button type="button" (click)="onAddQuantity(produkt)" class="plus">+</button> 
+      <input readonly type="text"  [ngModel] ="produkt.ilosc" (ngModelChange) ="produkt.ilosc=$event" class="form-condivol form-inline licznik" id="count">
+      <button type="button" (click)="onRemoveQuantity(produkt)" class="minus">-</button>
+      </div>
+    </div>
+    <div class="product-price-wrapper">
+        <div *ngIf="produkt.cena * produkt.ilosc!=produkt.cena" class="total-price">{{produkt.cena * produkt.ilosc}}<span> zł</span></div>
+      <div class="product-price"><span *ngIf="produkt.cena * produkt.ilosc!=produkt.cena" class="for-one-item">za sztukę: </span><span class="price">{{produkt.cena}} </span><span>zł</span></div>
+    </div>
+    
+    
+    <div ><div> <button class="usun-button" (click)="removeItem(produkt)"><i class="material-icons">
+        highlight_off
+        </i></button></div>
+       
+      </div>
+     
+      
+     
+      
+  </div>
+ 
+
+
+
+
+
+  
+</div>
+</div>
+<div class="ile-lacznie">Łącznie: <span class="total">{{allTotal}}</span><span>zł</span>
+</div>
+<p style="text-align:right">+koszt wysyłki</p>
+<div class="commit-order-wrapper"><a routerLink="/" class="return">Wróć</a><a  routerLink="/zloz-zamowienie" class="commit-order"  routerLinkActive="is-active">Złóż zamówienie</a></div>
+
+        
+ 
+</ng-template> 
+</div>

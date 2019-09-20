@@ -1,0 +1,76 @@
+<div class="container product-background">
+  <div *ngFor="let alert of CartService.alerts">
+    <div class="modal" [ngClass]="openModal ? 'show':'hide'">
+      <div class="modal-content" (close)="closeAlert(alert)">
+        <div class="close"><i (click)="hideModal()" class="fas fa-times close"></i></div>
+        <p>{{ alert.message }}</p>
+        <div *ngFor="let produkt of CartService.produkt">
+          <div class="produkt-added-alert">
+            <div><img src="{{produkt.thumbnail}}"></div>
+            <div class="produkt-added-alert-desc">
+              <div class="product-name">{{produkt.nazwa}}</div>
+              <div class="prices">
+                <div [ngClass]="produkt.promo ? 'old-price':'product-price'">{{produkt.cena}}<span>zł</span></div>
+                <ng-container *ngIf="produkt.promo">
+                  <div class="product-price">{{produkt.cenaPromocyjna}}<span>zł</span></div>
+                </ng-container>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-buttons"><a (click)="hideModal()">Kontynuuj zakupy</a><a routerLink="/koszyk">Przejdź do
+            koszyka</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- <div style="margin-left:30px;padding-top:30px; margin-bottom: 20px"><h3>{{title}}</h3></div>-->
+  <div class="products-wrapper">
+
+
+
+    <div class="l-site product-l">
+      <ng-container *ngIf="product!=undefined">
+        <div *ngIf="product.promo" class="promo-info">Promocja</div>
+      </ng-container><img *ngIf="product!=undefined" src="{{product.zdjecieGlowne}}">
+    </div>
+
+    <div class="r-site product-r">
+      <div class="product-name" *ngIf="product!=undefined">{{product.nazwa}}</div>
+      <div class="prices">
+        <div *ngIf="product!=undefined" [ngClass]="product.promo ? 'old-price':'product-price'">{{product.cena}}<span>zł</span></div>
+        <ng-container *ngIf="product!=undefined">
+          <div *ngIf="product.promo" class="product-price">{{product.cenaPromocyjna}}<span>zł</span></div>
+        </ng-container>
+
+      </div>
+
+
+
+      <div class="add-to-basket-wrapper one-product">
+        <p><span>{{ileMagazyn}}</span></p>
+        <div class="quantity-wrapper"><span>Ilość: </span> <button type="button" (click)="onAddQuantity()"
+            class="plus">+</button>
+          <input type="text" [ngModel]="ilosc" (ngModelChange)="ilosc=$event" class="form-control form-inline licznik"
+            id="count">
+          <button type="button" (click)="onRemoveQuantity()" class="minus">-</button></div>
+
+
+        <div> <button class="add-to-basket" (click)="OnAddCart(product)"><i class="material-icons">
+              add_shopping_cart
+            </i>Do koszyka</button></div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <div class="product-maindesc">
+    <div class="product-maindesc-wrapper">
+      <h2 class="product-maindesc-title">Opis produktu</h2>
+      <p class="product-description" *ngIf="product!=undefined">{{product.opis}}</p>
+    </div>
+  </div>
+
+</div>

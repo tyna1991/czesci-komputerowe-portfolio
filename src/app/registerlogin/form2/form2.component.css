@@ -1,0 +1,58 @@
+.inputs{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form-group{
+    margin: 50px 0px 25px;
+}
+.form-control{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #cccccc;
+    height: 12px;
+    min-width: 300px;
+    width: 400px;
+    padding: 10px;
+    margin-left:15px;
+}
+b{
+    font-size: 14px;
+}
+.btn-login{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    display: inherit;
+    background-color: #037ed0;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+.modal p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.modal-content a{
+    width: 100px;
+    text-align: center;
+}
+.alert{
+    font-weight: bold;
+    color: #d60000;
+    font-size: 10px;
+    text-align: center;
+}
+@media (max-width:600px){
+    .form-control{
+        width: auto;
+        min-width: auto;
+    }
+}

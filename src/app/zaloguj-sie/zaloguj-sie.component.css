@@ -1,0 +1,38 @@
+.btn-login{
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    background-color: #037ed0;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    min-width: 140px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.btn-login:first-child{
+    margin-right: 15px;
+}
+.buttons{
+    display: flex;
+ 
+    justify-content: center;
+    margin-bottom: 50px;
+}
+@media(max-width:350px){
+    .buttons{
+        flex-direction: column;
+    }
+    .btn-login:first-child{
+        margin-right: 0px; margin-bottom: 15px;
+    }
+    .btn-login{
+        min-width:auto;
+        width:100%;
+    }
+}

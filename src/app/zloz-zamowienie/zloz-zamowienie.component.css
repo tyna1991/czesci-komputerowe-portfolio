@@ -1,0 +1,137 @@
+.order-wrapper{
+    max-width:800px;
+    margin:0 auto;
+    padding-right:15px;
+    padding-left:15px;
+
+}
+
+.modal p{
+    padding: 30px 0px;
+    text-align: center;
+}
+.order-background{
+    background-color: #fff;
+}
+.form-control{
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    height: 12px;
+    min-width: 300px;
+    padding: 15px 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn-login{
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    left: 0;
+    right: 0;
+    background-color: #037ed0;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 180px;
+    font-family: 'Blinker', sans-serif;
+    
+    
+}
+.btn-login b{
+    display: inline-block;
+    margin: 0 auto;
+    font-family: 'Blinker', sans-serif;
+}
+.inputs{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: end;
+}
+label{
+    font-size: 14px;
+    width: 20%;
+    position: relative;
+    display: block;
+    text-align: left;
+    min-width: 138px;
+}
+
+.form-group{
+    margin:0 auto;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+.adress .width .form-control{
+    width: auto;
+    min-width: auto;
+}
+.adress .width{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+}
+h5{
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top:50px;
+}
+.flex-2{
+    display: flex;
+    width: 100%;
+}
+.delivery-wrapper{
+    display:flex;    margin-bottom: 30px;
+}
+@media (max-width:800px){
+    .form-group{
+        width: 100%;
+        min-width: auto;
+    }
+    
+    .form-control{
+        width: 100%;
+        min-width: auto;
+    }
+    .delivery-wrapper{
+        flex-direction: column;
+    }
+}
+@media (max-width:600px){
+    
+    .adress .width{
+        width:100%;
+    }
+    label{
+        min-width: 100px;  
+    }
+
+}
+@media (max-width:400px){
+   label{
+    min-width: 55px;
+    font-size: 12px;
+   }
+   .flex-2{
+    flex-wrap: wrap;
+   }
+   .flex-2>div:last-child{
+    margin-top: 15px;
+   }
+   .flex-2>div:last-child label{
+       text-align: left !important;
+   }
+   .flex-2>div:first-child{
+    width:100%;
+   }
+}

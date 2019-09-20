@@ -1,0 +1,1008 @@
+{
+  "produkty": [
+    {
+      "id": "1",
+      "nazwa": "procesor1",
+      "cena": "999",
+      "ilosc": "1",
+      "grupa": "1",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "2",
+      "nazwa": "procesor2",
+      "cena": "55",
+      "ilosc": "1",
+      "grupa": "1",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "3",
+      "nazwa": "procesor3",
+      "cena": "88",
+      "ilosc": "1",
+      "grupa": "1",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "4",
+      "nazwa": "procesor4",
+      "cena": "77",
+      "ilosc": "1",
+      "grupa": "1",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "5",
+      "nazwa": "procesor5",
+      "cena": "999",
+      "ilosc": "1",
+      "grupa": "1",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "6",
+      "nazwa": "karta1",
+      "cena": "09",
+      "ilosc": "1",
+      "grupa": "2",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "7",
+      "nazwa": "karta2",
+      "cena": "11",
+      "ilosc": "1",
+      "grupa": "2",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "8",
+      "nazwa": "karta3",
+      "cena": "22",
+      "ilosc": "1",
+      "grupa": "2",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "9",
+      "nazwa": "karta4",
+      "cena": "33",
+      "ilosc": "1",
+      "grupa": "2",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "10",
+      "nazwa": "karta5",
+      "cena": "44",
+      "ilosc": "1",
+      "grupa": "2",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "11",
+      "nazwa": "pamiec1",
+      "cena": "09",
+      "ilosc": "1",
+      "grupa": "3",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "12",
+      "nazwa": "pamiec2",
+      "cena": "11",
+      "ilosc": "1",
+      "grupa": "3",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "13",
+      "nazwa": "pamiec3",
+      "cena": "22",
+      "ilosc": "1",
+      "grupa": "3",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "14",
+      "nazwa": "pamiec4",
+      "cena": "33",
+      "ilosc": "1",
+      "grupa": "3",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "15",
+      "nazwa": "pamiec5",
+      "cena": "44",
+      "ilosc": "1",
+      "grupa": "3",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "16",
+      "nazwa": "dysk-twardy1",
+      "cena": "09",
+      "ilosc": "1",
+      "grupa": "4",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "17",
+      "nazwa": "dysk-twardy2",
+      "cena": "11",
+      "ilosc": "1",
+      "grupa": "4",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "19",
+      "nazwa": "dysk-twardy3",
+      "cena": "22",
+      "ilosc": "1",
+      "grupa": "4",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "20",
+      "nazwa": "dysk-twardy4",
+      "cena": "33",
+      "ilosc": "1",
+      "grupa": "4",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "21",
+      "nazwa": "dysk-twardy5",
+      "cena": "44",
+      "ilosc": "1",
+      "grupa": "4",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "22",
+      "nazwa": "plyta-glowna1",
+      "cena": "09",
+      "ilosc": "1",
+      "grupa": "5",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "23",
+      "nazwa": "plyta-glowna2",
+      "cena": "11",
+      "ilosc": "1",
+      "grupa": "5",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "24",
+      "nazwa": "plyta-glowna3",
+      "cena": "22",
+      "ilosc": "1",
+      "grupa": "5",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "25",
+      "nazwa": "plyta-glowna4",
+      "cena": "33",
+      "ilosc": "1",
+      "grupa": "5",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "26",
+      "nazwa": "plyta-glowna5",
+      "cena": "44",
+      "ilosc": "1",
+      "grupa": "5",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "27",
+      "nazwa": "obudowa1",
+      "cena": "09",
+      "ilosc": "1",
+      "grupa": "6",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "28",
+      "nazwa": "obudowa2",
+      "cena": "11",
+      "ilosc": "1",
+      "grupa": "6",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "29",
+      "nazwa": "obudowa3",
+      "cena": "22",
+      "ilosc": "1",
+      "grupa": "6",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "30",
+      "nazwa": "obudowa4",
+      "cena": "33",
+      "ilosc": "1",
+      "grupa": "6",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "31",
+      "nazwa": "obudowa5",
+      "cena": "44",
+      "ilosc": "1",
+      "grupa": "6",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "32",
+      "nazwa": "zasilacz1",
+      "cena": "09",
+      "ilosc": "1",
+      "grupa": "7",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "33",
+      "nazwa": "zasilacz2",
+      "cena": "11",
+      "ilosc": "1",
+      "grupa": "7",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "34",
+      "nazwa": "zasilacz3",
+      "cena": "22",
+      "ilosc": "1",
+      "grupa": "7",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "35",
+      "nazwa": "zasilacz4",
+      "cena": "33",
+      "ilosc": "1",
+      "grupa": "7",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "1"
+    },
+    {
+      "id": "36",
+      "nazwa": "zasilacz5",
+      "cena": "44",
+      "ilosc": "1",
+      "grupa": "7",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "37",
+      "nazwa": "dodatki1",
+      "cena": "09",
+      "ilosc": "1",
+      "grupa": "8",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "38",
+      "nazwa": "dodatki2",
+      "cena": "11",
+      "ilosc": "1",
+      "grupa": "8",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "39",
+      "nazwa": "dodatki3",
+      "cena": "22",
+      "ilosc": "1",
+      "grupa": "8",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "40",
+      "nazwa": "dodatki4",
+      "cena": "33",
+      "ilosc": "1",
+      "grupa": "8",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    },
+    {
+      "id": "41",
+      "nazwa": "dodatki5",
+      "cena": "44",
+      "ilosc": "1",
+      "grupa": "8",
+      "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "0",
+      "thumbnail": "https://via.placeholder.com/200",
+      "zdjecieGlowne": "https://via.placeholder.com/500",
+      "iloscNaMagazynie": "10",
+      "HomePage": "0"
+    }
+  ],
+ 
+  "order": [
+    {
+      "Name": "string",
+      "Surname": "string",
+      "DeliveryAddress": "string",
+      "Delivery": "string",
+      "Phone": "string",
+      "PaymentMethods": "string",
+      "dateTimeStamp": "string",
+      "orderItems": "produkty"
+    },
+    {
+      "Name": "",
+      "Surname": "",
+      "DeliveryAddress": "",
+      "Phone": "",
+      "Delivery": "",
+      "PaymentMethods": "",
+      "dateTimeStamp": "242019101323",
+      "id": 1,
+      "orderItems": [
+        {
+          "idZamowienia": 1,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": 3,
+          "cena": "09"
+        }
+      ]
+    },
+    {
+      "Name": "aaa",
+      "Surname": "rth6r",
+      "DeliveryAddress": "rhy",
+      "Phone": "rhyt",
+      "Delivery": "etyhte",
+      "PaymentMethods": "yht",
+      "dateTimeStamp": "24201919137",
+      "id": 2,
+      "orderItems": [
+        {
+          "idZamowienia": 2,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": 3,
+          "cena": "09"
+        }
+      ]
+    },
+    {
+      "Name": "Justyna",
+      "Surname": "S",
+      "Street": "ulica test",
+      "Code": "10-691",
+      "City": "Olsztyn",
+      "Phone": "698566441",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "dateTimeStamp": "15-4-2019-48-21-38",
+      "id": 3,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 3,
+          "id": "32",
+          "nazwa": "zasilacz1",
+          "ilosc": 7,
+          "cena": "09"
+        },
+        {
+          "idZamowienia": 3,
+          "id": "27",
+          "nazwa": "obudowa1",
+          "ilosc": 9,
+          "cena": "09"
+        },
+        {
+          "idZamowienia": 3,
+          "id": "1",
+          "nazwa": "procesor1",
+          "ilosc": 3,
+          "cena": "999"
+        }
+      ]
+    },
+    {
+      "Name": "asfd",
+      "Surname": "sgdd",
+      "Street": "wefd",
+      "Code": "sadv",
+      "City": "savd",
+      "Phone": "sdv",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "dateTimeStamp": "16-4-2019-19-20-23",
+      "id": 4,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 4,
+          "id": "27",
+          "nazwa": "obudowa1",
+          "ilosc": 13,
+          "cena": "09"
+        },
+        {
+          "idZamowienia": 4,
+          "id": "1",
+          "nazwa": "procesor1",
+          "ilosc": 4,
+          "cena": "999"
+        },
+        {
+          "idZamowienia": 4,
+          "id": "32",
+          "nazwa": "zasilacz1",
+          "ilosc": 9,
+          "cena": "09"
+        },
+        {
+          "idZamowienia": 4,
+          "id": "38",
+          "nazwa": "dodatki2",
+          "ilosc": "1",
+          "cena": "11"
+        }
+      ]
+    },
+    {
+      "Name": "ghf",
+      "Surname": "dgnfgn",
+      "Street": "dgn",
+      "Code": "fgn",
+      "City": "gn",
+      "Phone": "fngf",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "idClient": 2,
+      "dateTimeStamp": "16-4-2019-9-21-0",
+      "id": 5,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 5,
+          "id": "34",
+          "nazwa": "zasilacz3",
+          "ilosc": "1",
+          "cena": "22"
+        },
+        {
+          "idZamowienia": 5,
+          "id": "38",
+          "nazwa": "dodatki2",
+          "ilosc": "1",
+          "cena": "11"
+        },
+        {
+          "idZamowienia": 5,
+          "id": "39",
+          "nazwa": "dodatki3",
+          "ilosc": "1",
+          "cena": "22"
+        },
+        {
+          "idZamowienia": 5,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": 3,
+          "cena": "09"
+        }
+      ]
+    },
+    {
+      "Name": "rthg",
+      "Surname": "ethrg",
+      "Street": "rth",
+      "Code": "rthfg",
+      "City": "rtfhg",
+      "Phone": "tfh",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "idClient": 2,
+      "dateTimeStamp": "16-4-2019-10-21-2",
+      "id": 6,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 6,
+          "id": "34",
+          "nazwa": "zasilacz3",
+          "ilosc": "1",
+          "cena": "22"
+        },
+        {
+          "idZamowienia": 6,
+          "id": "38",
+          "nazwa": "dodatki2",
+          "ilosc": "1",
+          "cena": "11"
+        },
+        {
+          "idZamowienia": 6,
+          "id": "39",
+          "nazwa": "dodatki3",
+          "ilosc": "1",
+          "cena": "22"
+        },
+        {
+          "idZamowienia": 6,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": 3,
+          "cena": "09"
+        }
+      ]
+    },
+    {
+      "Name": "trh",
+      "Surname": "thr",
+      "Street": "fh",
+      "Code": "fdh",
+      "City": "fdh",
+      "Phone": "dfh",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "idClient": 2,
+      "dateTimeStamp": "16-4-2019-10-21-44",
+      "id": 7,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 7,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": "1",
+          "cena": "09"
+        }
+      ]
+    },
+    {
+      "Name": "dfh",
+      "Surname": "dthfgb",
+      "Street": "tg",
+      "Code": "tgf",
+      "City": "tgdf",
+      "Phone": "gdf",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "idClient": 2,
+      "dateTimeStamp": "16-4-2019-28-21-38",
+      "id": 8,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 8,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": "1",
+          "cena": "09"
+        },
+        {
+          "idZamowienia": 8,
+          "id": "38",
+          "nazwa": "dodatki2",
+          "ilosc": "1",
+          "cena": "11"
+        }
+      ]
+    },
+    {
+      "Name": "regf",
+      "Surname": "rsdfvc",
+      "Street": "dfb",
+      "Code": "dbc",
+      "City": "gfbv",
+      "Phone": "v",
+      "Delivery": "odbiór osobisty",
+      "PaymentMethods": "płatność przy odbiorze",
+      "idClient": 1,
+      "dateTimeStamp": "22-4-2019 22:3:20",
+      "id": 9,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 9,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": 2,
+          "cena": "09"
+        },
+        {
+          "idZamowienia": 9,
+          "id": "22",
+          "nazwa": "plyta-glowna1",
+          "ilosc": 3,
+          "cena": "09"
+        },
+        {
+          "idZamowienia": 9,
+          "id": "16",
+          "nazwa": "dysk-twardy1",
+          "ilosc": "1",
+          "cena": "09"
+        }
+      ],
+      "DeliveryCost": 0
+    },
+    {
+      "Name": "ewfd",
+      "Surname": "rgfvc",
+      "Street": "regfv",
+      "Code": "regvc",
+      "City": "vsfxc",
+      "Phone": "fdscx",
+      "Delivery": "odbiór osobisty",
+      "PaymentMethods": "przedpłata",
+      "idClient": 1,
+      "dateTimeStamp": "22-4-2019 22:9:51",
+      "id": 10,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 10,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": "1",
+          "cena": "09"
+        },
+        {
+          "idZamowienia": 10,
+          "id": "38",
+          "nazwa": "dodatki2",
+          "ilosc": "1",
+          "cena": "11"
+        }
+      ],
+      "DeliveryCost": 0
+    },
+    {
+      "Name": "thfg",
+      "Surname": "ethfg",
+      "Street": "thrgf",
+      "Code": "tgfd",
+      "City": "gefd",
+      "Phone": "gefd",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "idClient": 1,
+      "dateTimeStamp": "22-4-2019 22:12:13",
+      "id": 11,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 11,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": "1",
+          "cena": "09"
+        }
+      ],
+      "DeliveryCost": 15
+    },
+    {
+      "Name": "test",
+      "Surname": "test",
+      "Street": "test",
+      "Code": "test",
+      "City": "test",
+      "Phone": "test",
+      "Delivery": "kurier",
+      "PaymentMethods": "pobranie",
+      "idClient": 2,
+      "dateTimeStamp": "22-4-2019 22:22:6",
+      "id": 12,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 12,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": 2,
+          "cena": "09"
+        }
+      ],
+      "DeliveryCost": 20
+    },
+    {
+      "Name": "fd",
+      "Surname": "fb",
+      "Street": "fb",
+      "Code": "bfg",
+      "City": "fb",
+      "Phone": "b",
+      "Delivery": "odbiór osobisty",
+      "PaymentMethods": "przedpłata",
+      "idClient": 3,
+      "dateTimeStamp": "22-4-2019 22:29:6",
+      "id": 13,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 13,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": "1",
+          "cena": "09"
+        }
+      ],
+      "DeliveryCost": 0
+    },
+    {
+      "Name": "fb",
+      "Surname": "fdvxc",
+      "Street": "fd",
+      "Code": "fd",
+      "City": "fd",
+      "Phone": "fdf",
+      "Delivery": "odbiór osobisty",
+      "PaymentMethods": "przedpłata",
+      "idClient": 5,
+      "dateTimeStamp": "22-4-2019 22:38:23",
+      "id": 14,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 14,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": 3,
+          "cena": "09"
+        }
+      ],
+      "DeliveryCost": 0
+    },
+    {
+      "Name": "5yhg",
+      "Surname": "trhgf",
+      "Street": "thrf",
+      "Code": "htrgf",
+      "City": "trgf",
+      "Phone": "trhgf",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "idClient": 6,
+      "dateTimeStamp": "22-4-2019 22:42:11",
+      "id": 15,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 15,
+          "id": "37",
+          "nazwa": "dodatki1",
+          "ilosc": "1",
+          "cena": "09"
+        }
+      ],
+      "DeliveryCost": 15
+    },
+    {
+      "Name": "mmm",
+      "Surname": "mmm",
+      "Street": "mm",
+      "Code": "mm",
+      "City": "mm",
+      "Phone": "mm",
+      "Delivery": "kurier",
+      "PaymentMethods": "przedpłata",
+      "idClient": 9,
+      "dateTimeStamp": "22-4-2019 22:52:3",
+      "id": 16,
+      "status": "Złożono zamówienie",
+      "orderItems": [
+        {
+          "idZamowienia": 16,
+          "id": "32",
+          "nazwa": "zasilacz1",
+          "ilosc": 4,
+          "cena": "09"
+        }
+      ],
+      "DeliveryCost": 15
+    }
+  ]
+}

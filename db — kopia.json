@@ -1,0 +1,411 @@
+{
+   "produkty":[
+      {
+          "id":"1",
+         "nazwa":"procesor1",
+         "cena":"999",
+         "ilosc":"555",
+         "grupa":"1",
+          
+      "opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"
+      },
+       
+      {
+          "id":"2",
+         "nazwa":"procesor2",
+         "cena":"55",
+         "ilosc":"3",
+         "grupa":"1",
+      "opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+      "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"
+      },
+      {
+          "id":"3",
+         "nazwa":"procesor3",
+         "cena":"88",
+         "ilosc":"4",
+         "grupa":"1"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"
+      },
+      
+      {
+          "id":"4",
+         "nazwa":"procesor4",
+         "cena":"77",
+         "ilosc":"5",
+         "grupa":"1"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"5",
+         "nazwa":"procesor5",
+         "cena":"999",
+         "ilosc":"6",
+         "grupa":"1"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"6",
+         "nazwa":"karta1",
+         "cena":"09",
+         "ilosc":"10",
+         "grupa":"2"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"7",
+         "nazwa":"karta2",
+         "cena":"11",
+         "ilosc":"5",
+         "grupa":"2"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"8",
+         "nazwa":"karta3",
+         "cena":"22",
+         "ilosc":"10",
+         "grupa":"2"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"9",
+         "nazwa":"karta4",
+         "cena":"33",
+         "ilosc":"10",
+         "grupa":"2"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"10",
+         "nazwa":"karta5",
+         "cena":"44",
+         "ilosc":"10",
+         "grupa":"2"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"11",
+         "nazwa":"pamiec1",
+         "cena":"09",
+         "ilosc":"10",
+         "grupa":"3"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"12",
+         "nazwa":"pamiec2",
+         "cena":"11",
+         "ilosc":"5",
+         "grupa":"3"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"13",
+         "nazwa":"pamiec3",
+         "cena":"22",
+         "ilosc":"10",
+         "grupa":"3"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"14",
+         "nazwa":"pamiec4",
+         "cena":"33",
+         "ilosc":"10",
+         "grupa":"3"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"15",
+         "nazwa":"pamiec5",
+         "cena":"44",
+         "ilosc":"10",
+         "grupa":"3"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"16",
+         "nazwa":"dysk-twardy1",
+         "cena":"09",
+         "ilosc":"10",
+         "grupa":"4"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"17",
+         "nazwa":"dysk-twardy2",
+         "cena":"11",
+         "ilosc":"5",
+         "grupa":"4"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"19",
+         "nazwa":"dysk-twardy3",
+         "cena":"22",
+         "ilosc":"10",
+         "grupa":"4"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"20",
+         "nazwa":"dysk-twardy4",
+         "cena":"33",
+         "ilosc":"10",
+         "grupa":"4"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"21",
+         "nazwa":"dysk-twardy5",
+         "cena":"44",
+         "ilosc":"10",
+         "grupa":"4"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"22",
+         "nazwa":"plyta-glowna1",
+         "cena":"09",
+         "ilosc":"10",
+         "grupa":"5"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"23",
+         "nazwa":"plyta-glowna2",
+         "cena":"11",
+         "ilosc":"5",
+         "grupa":"5"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"24",
+         "nazwa":"plyta-glowna3",
+         "cena":"22",
+         "ilosc":"10",
+         "grupa":"5"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"25",
+         "nazwa":"plyta-glowna4",
+         "cena":"33",
+         "ilosc":"10",
+         "grupa":"5"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"26",
+         "nazwa":"plyta-glowna5",
+         "cena":"44",
+         "ilosc":"10",
+         "grupa":"5"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"27",
+         "nazwa":"obudowa1",
+         "cena":"09",
+         "ilosc":"10",
+         "grupa":"6"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"28",
+         "nazwa":"obudowa2",
+         "cena":"11",
+         "ilosc":"5",
+         "grupa":"6"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"29",
+         "nazwa":"obudowa3",
+         "cena":"22",
+         "ilosc":"10",
+         "grupa":"6"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"30",
+         "nazwa":"obudowa4",
+         "cena":"33",
+         "ilosc":"10",
+         "grupa":"6"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"31",
+         "nazwa":"obudowa5",
+         "cena":"44",
+         "ilosc":"10",
+         "grupa":"6"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"32",
+         "nazwa":"zasilacz1",
+         "cena":"09",
+         "ilosc":"10",
+         "grupa":"7"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"33",
+         "nazwa":"zasilacz2",
+         "cena":"11",
+         "ilosc":"5",
+         "grupa":"7"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"34",
+         "nazwa":"zasilacz3",
+         "cena":"22",
+         "ilosc":"10",
+         "grupa":"7"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"35",
+         "nazwa":"zasilacz4",
+         "cena":"33",
+         "ilosc":"10",
+         "grupa":"7"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"36",
+         "nazwa":"zasilacz5",
+         "cena":"44",
+         "ilosc":"10",
+         "grupa":"7"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"37",
+         "nazwa":"dodatki1",
+         "cena":"09",
+         "ilosc":"10",
+         "grupa":"8"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"38",
+         "nazwa":"dodatki2",
+         "cena":"11",
+         "ilosc":"5",
+         "grupa":"8"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"39",
+         "nazwa":"dodatki3",
+         "cena":"22",
+         "ilosc":"10",
+         "grupa":"8"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"40",
+         "nazwa":"dodatki4",
+         "cena":"33",
+         "ilosc":"10",
+         "grupa":"8"
+      ,"opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"},
+      {
+          "id":"41",
+         "nazwa":"dodatki5",
+         "cena":"44",
+         "ilosc":"10",
+         "grupa":"8",
+           "opis":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor consectetur eros, et molestie erat hendrerit ac. Pellentesque sit amet accumsan lorem. Phasellus malesuada volutpat maximus. Nulla facilisi. Nam quis diam posuere, vestibulum dui quis, tempus leo. Nullam dolor ipsum, vulputate scelerisque diam a, efficitur ullamcorper nisl. Vestibulum sed nunc nisi.  ",
+       "cenaPromocyjna": "12",
+     "thumbnail": "https://via.placeholder.com/200",
+     "zdjecieGlowne": "https://via.placeholder.com/500"
+      }
+   ]
+}

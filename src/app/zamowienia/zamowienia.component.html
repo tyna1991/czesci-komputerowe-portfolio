@@ -1,0 +1,67 @@
+<div class="container product-background">
+  <div style="margin-left:10px; padding-top:30px;width: 90%;
+  margin: 0 auto;">
+    <h3>Zamówienia</h3>
+  </div>
+  <!-- <div *ngFor="let item of sortData">
+     {{item.dateTimeStamp}} 
+  </div> -->
+  <div class="cart-table">
+    <ng-container *ngIf="pusta; else pokazListe">
+      <div class="emptyList">Brak zamówień</div>
+    </ng-container>
+    <ng-template #pokazListe>
+      <div *ngFor="let order of yourOrders  | reverse">
+        <div class="orders-background">
+          <table >
+              <tbody>
+                <tr class="naglowek naglowek-padding">
+                  <td class="text-center" class="product-name">Numer zamówienia</td>
+                  <td class=".product-price">Data zamówienia</td>
+                  <td>Status</td>
+                </tr>
+                <tr class="naglowek border_bottom">
+                <td>{{order.id}}</td>
+                <td class="text-center" class="product-name">{{order.dateTimeStamp}}</td>
+                <td class="product-price">{{order.status}}</td>
+                </tr>
+                
+                
+              </tbody>
+            </table>
+            <div>
+              <div class="border_bottom" style="padding-bottom:50px;margin-bottom: 50px;">
+  
+                <div *ngFor="let produkt of order.orderItems" style="display: flex;
+                margin-top: 30px; max-width: 800px;
+    margin: 0 auto;" class="order-product-list">
+                  <div><img src="{{produkt | getThumbnail |async}}" width="100px;" height="100px;"/></div>
+                 <div class="order-detalis"><div class=".product-price"><p>Cena jednostkowa: {{produkt.cena}} <span>zł</span></p></div>
+                 <div><p>Ilość: {{produkt.ilosc}} </p></div>
+                 <div><p>Razem: {{produkt.cena * produkt.ilosc}}<span> zł</span></p></div></div>
+                  
+
+                </div>
+                <div class="ile-lacznie">Cena produktów: <span class="total">{{order.orderItems | getTotal}}</span><span>zł</span></div>
+              <div class="ile-lacznie">Koszt dostawy: <span class="total">{{order.DeliveryCost}}</span><span>zł</span>
+                
+            </div>
+            <div class="ile-lacznie">Razem: <span class="total">{{order | getTotalPlusDelivery }}</span><span>zł</span>
+            </div>
+              </div>
+            </div>
+            
+           
+            <!-- <p style="text-align: right;
+            margin: 0;
+            margin-right: 20px;">+koszt wysyłki</p> -->
+      
+    </div>
+  </div>
+    </ng-template>
+    <!-- <div class="ile-lacznie">Łącznie: <span class="total">{{allTotal}}</span><span>zł</span>
+</div> -->
+
+
+  </div>
+</div>

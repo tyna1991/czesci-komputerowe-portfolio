@@ -1,0 +1,92 @@
+<div>
+  <div *ngFor="let alert of alertsDanger" style=" top: 20px;
+  position: relative;">
+    <p style="font-weight: bold;
+    color: #d60000;
+    font-size: 10px;text-align: center">{{ alert.message }}</p>
+  </div>
+  <form [formGroup]="registrationForm">
+    <div class="form-group">
+      <div class="row">
+          <div class="inputs">
+          <label for="FormControlUserName"><b>Login*:</b></label>
+          <input type="text" formControlName="UserName" placeholder="Wpisz login" class="form-control"
+            aria-label="Default" aria-describedby="inputGroup-sizing-default" >
+        </div>
+
+        <div class="inputs">
+          <span style="    font-weight: bold;
+          color: #d60000;
+          font-size: 10px;"
+            *ngIf="!registrationForm.controls['UserName'].valid&&(registrationForm.controls['UserName'].dirty||submitted)">
+            <span *ngIf="registrationForm.controls.UserName.errors.required">Pole login jest wymagane</span>
+            <span *ngIf="registrationForm.controls.UserName.errors.minlength">Login powinien mieć conajmniej 3 znaki</span>
+            <span *ngIf="registrationForm.controls.UserName.errors.maxlength">Maksymalna długość znaków to 50</span>
+          </span>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="inputs">
+          <label for="FormControlPassword"><b>Hasło*:</b></label>
+          <input type="password" formControlName="Password" placeholder="Wpisz hasło" class="form-control"
+            aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="inputs">
+          <span style="    font-weight: bold;
+          color: #d60000;
+          font-size: 10px;"
+            *ngIf="!registrationForm.controls['Password'].valid&&(registrationForm.controls['Password'].dirty||submitted)">
+            <span *ngIf="registrationForm.controls.Password.errors.required">Pole hasło jest wymagane</span>
+            <span *ngIf="registrationForm.controls.Password.errors.minlength">Hasło powinno mieć conajmniej 3 znaki</span>
+            <span *ngIf="registrationForm.controls.Password.errors.maxlength">Maksymalna ilość znaków to 50.</span>
+          </span>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="inputs">
+          <label for="FormControlEmail"><b>Email*:</b></label>
+          <input type="email" formControlName="Email" placeholder="Wpisz email" class="form-control" aria-label="Default"
+            aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="inputs">
+          <span style="    font-weight: bold;
+          color: #d60000;
+          font-size: 10px;"
+            *ngIf="!registrationForm.controls['Email'].valid&&(registrationForm.controls['Email'].dirty||submitted)">
+            <span *ngIf="registrationForm.controls.Email.errors.required">Pole e-mail jest wymagane</span>
+            <span *ngIf="registrationForm.controls.Email.errors.email">Podaj prawidłowy adres e-mail</span>
+          </span>
+        </div>
+         <!-- <div class="col-md-4">
+          <span style="font-weight: bold;color: red;"
+            *ngIf="!registrationForm.controls['Email'].valid&&registrationForm.controls['Email'].dirty">
+            <span *ngIf="registrationForm.controls.Email.errors.required">Email is Required.</span>
+            <span *ngIf="registrationForm.controls.Email.errors.email">Email is not in correct pattern.</span>
+          </span>
+        </div> -->
+      </div>
+      <br>
+      <!-- <div class="col-md-6">
+        <input type="id" formControlName="id" placeholder="id" class="form-control" aria-label="Default"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+      <br> -->
+    
+      
+    </div>
+    <button type="button" class="btn-login" 
+      (click)="OnRegister(registrationForm.value)"><b>Zarejestruj się</b></button>
+  </form>
+  
+  <div *ngFor="let alert of alerts">
+      <div class="modal" [ngClass]="openModal ? 'show':'hide'"><div class="modal-content"  (close)="closeAlert(alert)"><div class="close"><i (click)="hideModal()" class="fas fa-times close" ></i></div>
+      <p>{{ alert.message }}</p>
+      
+  <div class="modal-buttons"><a routerLink="/">Przejdź do strony głównej</a><a routerLink="/logowanie">Zaloguj się</a></div>
+   </div></div></div> 
+
+  <!-- Tab End Code -->
+</div>
+
