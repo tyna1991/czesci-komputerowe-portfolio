@@ -3,7 +3,6 @@ import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms'
 import { Router, ActivatedRoute } from '@angular/router';
 import { HttpClient,HttpClientModule } from '@angular/common/http';
 import { User } from '../../user.model';
-import {RegistrationService} from '../../registration.service'
 import { AuthenticationService } from '../../authentication.service';
 import { SharedService } from '../../shared-service.service';
 import { Alert } from '../../alert';
@@ -11,18 +10,14 @@ import { Alert } from '../../alert';
 
 
 @Component({
-  selector: 'app-form2',
+  selector: 'form2',
   templateUrl: './form2.component.html',
   styleUrls: ['./form2.component.css'],
-  
-  
 })
-@NgModule({
- 
-})
+
 export class Form2Component implements OnInit {
 
-  constructor(private sharedService:SharedService, private fb: FormBuilder,private regService:RegistrationService ,private authService:AuthenticationService, private router: Router) { }
+  constructor(private sharedService:SharedService, private fb: FormBuilder,private authService:AuthenticationService, private router: Router) { }
   closeResult: string;
   registrationForm: FormGroup;
   loginForm:FormGroup;

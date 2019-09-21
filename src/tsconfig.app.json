@@ -4,6 +4,7 @@
     "outDir": "../out-tsc/app",
     "types": [], "experimentalDecorators": true,
     "allowJs": true,
+    // "paths": { "@angular/*": ["../node_modules/@angular/*"] },
     
   },
   "exclude": [

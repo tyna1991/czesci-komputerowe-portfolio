@@ -6,7 +6,7 @@ import { User } from './User.Model';
 import { AuthenticationService} from '../app/authentication.service';
 import { Router } from '@angular/router';
 import { EventEmitter } from 'events';
-import{Form2Component} from '/Users/Justyna S/czesci-komputerowe/src/app/registerlogin/form2/form2.component'
+// import{Form2Component} from '/Users/Justyna S/czesci-komputerowe/src/app/registerlogin/form2/form2.component'
 
 
 @Component({

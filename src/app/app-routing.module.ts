@@ -16,7 +16,6 @@ import { Form2Component }      from './registerlogin/form2/form2.component';
 import { RouterModule, Routes } from '@angular/router';
 import {UstawieniaComponent} from './ustawienia/ustawienia.component';
 import {ZamowieniaComponent} from './zamowienia/zamowienia.component';
-import { Redirection } from './registerlogin/guards/redirection.guard';
 import { LoginGuard } from './registerlogin/guards/login.guard';
 import { ZlozZamowienieComponent} from './zloz-zamowienie/zloz-zamowienie.component';
 import {ZalogujSieComponent} from "./zaloguj-sie/zaloguj-sie.component";

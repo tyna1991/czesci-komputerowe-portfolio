@@ -1,46 +1,46 @@
 <div class="product-background container">
-    <div  class="swiper-container" [swiper]="config" [(index)]="index">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-              <img src="../../assets/geometric-1732847_1920.jpg">
+  <swiper class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="../../assets/geometric-1732847_1920.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/office-1730939_1920.jpg">
+      </div>
+
+    </div>
+
+
+
+    <div class="swiper-button-prev">
+
+      <i class="fas fa-angle-left"></i>
+    </div>
+    <div class="swiper-button-next">
+      <i class="fas fa-angle-right"></i>
+    </div>
+  </swiper>
+  <div class="container container--padding">
+    <h3>Polecamy</h3>
+    <div class="recommended-container">
+
+
+      <div *ngFor="let product of productsRecommended" class="recommended-product">
+        <div>
+          <div><a routerLink="k/{{product.grupa}}/{{product.id}}"><img src="{{product.thumbnail}}"></a></div>
+          <div class="product-name"><a routerLink="k/{{product.grupa}}/{{product.id}}">{{product.nazwa}}</a></div>
+          <div class="prices">
+            <div [ngClass]="product.promo ? 'old-price':'product-price'">{{product.cena}}<span>zł</span></div>
+            <ng-container *ngIf="product.promo">
+              <div class="product-price">{{product.cenaPromocyjna}}<span>zł</span></div>
+              <div class="promo-info">Promocja</div>
+            </ng-container>
+
           </div>
-          <div class="swiper-slide">
-              <img src="../../assets/office-1730939_1920.jpg">
-          </div>
-         
-        </div>
-       
-        
-       
-        <div class="swiper-button-prev">
-            
-            <i class="fas fa-angle-left"></i>
-        </div>
-        <div class="swiper-button-next">
-            <i class="fas fa-angle-right"></i>
         </div>
       </div>
-<div class="container container--padding">
-        <h3>Polecamy</h3>
-        <div  class="recommended-container">
-                
-            
-              <div *ngFor="let product of productsRecommended"  class="recommended-product">
-                  <div >
-                      <div><a routerLink="k/{{product.grupa}}/{{product.id}}"><img src="{{product.thumbnail}}"></a></div>
-                      <div class="product-name"><a routerLink="k/{{product.grupa}}/{{product.id}}">{{product.nazwa}}</a></div>
-                      <div class="prices"><div [ngClass]="product.promo ? 'old-price':'product-price'">{{product.cena}}<span>zł</span></div>
-                      <ng-container *ngIf="product.promo">
-                            <div class="product-price">{{product.cenaPromocyjna}}<span>zł</span></div>
-                            <div class="promo-info">Promocja</div>
-                    </ng-container>
-                     
-                  </div>
-                  </div>
-              </div> 
-        </div>  
+    </div>
+
+  </div>
 
 </div>
-    
-</div>
-    
